@@ -1,6 +1,14 @@
+<p align="center"><img src="docs/images/icon.png" width="120" alt="DietNotify icon"></p>
+
 # DietNotify
 
 Android app that turns a diet chart PDF into weekly meal reminders and alarms.
+
+<p align="center">
+  <img src="docs/images/register.png" width="200" alt="Register screen">
+  <img src="docs/images/upload.png" width="200" alt="Upload diet chart screen">
+  <img src="docs/images/home.png" width="200" alt="Weekly diet plan">
+</p>
 
 ## Download
 
@@ -22,6 +30,19 @@ Android 8.0+ phone and allow installing from unknown sources.
    - Both notifications stay until you tap **Dismiss**. Alerts survive reboots and time zone changes.
 4. **Upload a new chart**: the app asks *"Are you sure, &lt;name&gt;?"*, then deletes
    the old plan with all its reminders and alarms before you upload the new PDF.
+
+## Screens
+
+| Register | Upload PDF | Weekly plan |
+|:---:|:---:|:---:|
+| <img src="docs/images/register.png" width="220"> | <img src="docs/images/upload.png" width="220"> | <img src="docs/images/home.png" width="220"> |
+| **Reminder notifications** | **Meal-time alarm** | **Re-upload confirmation** |
+| <img src="docs/images/notifications.png" width="220"> | <img src="docs/images/alarm.png" width="220"> | <img src="docs/images/confirm.png" width="220"> |
+| **Invalid PDF** | | |
+| <img src="docs/images/invalid.png" width="220"> | | |
+
+*Screen previews rendered from the app's layouts, colours and strings, filled with the meals
+parsed from a sample diet chart.*
 
 ## Build locally
 
