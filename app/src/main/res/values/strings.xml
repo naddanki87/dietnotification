@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">DietNotify</string>
+
+    <string name="welcome_title">Welcome to DietNotify</string>
+    <string name="welcome_subtitle">Never miss a meal from your diet chart. Tell us your name to get started.</string>
+    <string name="name_hint">Your name</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="register">Register &amp; continue</string>
+
+    <string name="hello_name">Hi %1$s 👋</string>
+    <string name="upload_title">Upload your diet chart</string>
+    <string name="upload_subtitle">Choose the PDF your dietitian shared. DietNotify reads the meal timings and recipes, then sets a reminder 1 hour before every meal and an alarm at meal time, repeating every week.</string>
+    <string name="upload_button">Choose diet chart PDF</string>
+    <string name="opening_pdf">Opening PDF…</string>
+    <string name="reading_page">Reading page %1$d of %2$d…</string>
+    <string name="invalid_title">Upload valid diet chart</string>
+    <string name="invalid_message">This file does not look like a diet chart. Please upload a valid diet chart PDF that lists meal timings (for example "Breakfast 08:30 AM") with the food to have.</string>
+    <string name="ok">OK</string>
+    <string name="plan_ready">Diet plan set: %1$d meals scheduled with reminders &amp; alarms</string>
+
+    <string name="plan_source">From %1$s · %2$d meals a week · reminder %3$d min before + alarm at meal time</string>
+    <string name="upload_new">Upload new diet chart</string>
+    <string name="test_alarm">Test reminder &amp; alarm now</string>
+    <string name="today_label">%1$s (today)</string>
+    <string name="no_recipe">See your diet chart for this meal.</string>
+    <string name="replace_title">Are you sure, %1$s?</string>
+    <string name="replace_message">%1$s, uploading a new diet chart will permanently delete your current diet plan and all of its reminders and alarms.</string>
+    <string name="replace_confirm">Yes, delete &amp; upload</string>
+    <string name="cancel">Cancel</string>
+    <string name="plan_deleted">Previous diet plan deleted</string>
+    <string name="warning_notifications">Notifications are turned off, so reminders cannot be shown.</string>
+    <string name="warning_exact">Allow \"Alarms &amp; reminders\" so alerts ring exactly on time.</string>
+    <string name="warning_full_screen">Allow full-screen alerts so the alarm can show on the lock screen.</string>
+    <string name="fix">Fix</string>
+
+    <string name="reminder_title">Upcoming: %1$s at %2$s</string>
+    <string name="alarm_title">Time for %1$s (%2$s)</string>
+    <string name="alarm_time_label">It\'s %1$s — time for your meal</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="silence">Silence, keep reminder</string>
+    <string name="channel_reminders">Meal reminders</string>
+    <string name="channel_reminders_desc">Reminder one hour before each meal</string>
+    <string name="channel_alarms">Meal alarms</string>
+    <string name="channel_alarms_desc">Alarm at the time of each meal</string>
+</resources>

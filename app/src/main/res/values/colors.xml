@@ -1,0 +1,7 @@
+<resources>
+    <color name="brand">#00585F</color>
+    <color name="brand_light">#00A6AC</color>
+    <color name="brand_surface">#E3FBFC</color>
+    <color name="ic_launcher_background">#00585F</color>
+    <color name="error">#C62828</color>
+</resources>

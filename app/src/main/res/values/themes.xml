@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.DietNotify" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_surface</item>
+        <item name="colorSecondary">@color/brand_light</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/brand</item>
+        <item name="android:windowBackground">@color/brand_surface</item>
+    </style>
+
+    <style name="Theme.DietNotify.Alarm" parent="Theme.DietNotify">
+        <item name="android:windowBackground">@color/brand</item>
+    </style>
+</resources>
