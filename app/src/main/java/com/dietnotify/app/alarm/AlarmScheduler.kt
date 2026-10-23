@@ -84,6 +84,10 @@ object AlarmScheduler {
         )
     }
 
+    /** Whether the weekly alert of the meal is currently queued. */
+    fun isScheduled(context: Context, planId: Long, mealIndex: Int, kind: AlertKind): Boolean =
+        pendingIntent(context, ACTION_FIRE, planId, mealIndex, kind, PendingIntent.FLAG_NO_CREATE) != null
+
     fun canScheduleExact(context: Context): Boolean =
         Build.VERSION.SDK_INT < Build.VERSION_CODES.S ||
             context.getSystemService(AlarmManager::class.java).canScheduleExactAlarms()
